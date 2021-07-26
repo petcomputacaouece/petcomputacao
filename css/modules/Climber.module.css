@@ -1,0 +1,8 @@
+#climber {
+  mix-blend-mode: difference; 
+  position: fixed; 
+  font-size: 32px;
+  right: 15px;
+  bottom: 15px;
+}
+
