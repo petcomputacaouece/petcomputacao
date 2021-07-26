@@ -11,6 +11,17 @@ html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+div#climber {
+  mix-blend-mode: difference; 
+  position: fixed; 
+  float: right;
+  font-size: 32px;
+  right: 10px;
+  bottom: 15px;
+}
+
+
 a {
   text-decoration: none;
   color: #ffffff;
