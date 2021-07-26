@@ -1,5 +1,5 @@
 .contact {
-  padding: 0 10px;
+  padding: 0;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   background: #342F56;
@@ -8,11 +8,13 @@
   transition: .3s;
   color: #FFFFFF;
 }
+.contact li {
+  cursor: help;
+}
 .contact:hover {
   color: #342F56;
   background: #eeecff;
 }
-
 .contact a:hover {
   color: #342F56;
 }
