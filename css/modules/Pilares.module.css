@@ -35,14 +35,7 @@
 
 /* Conteúdo e Itens */
 
-.pilares .pilares-conteudo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0 0 10px 10px;
-}
-
-.pilares .pilares-conteudo .pilares-item-esquerda {
+.pilares-item-esquerda {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2rem 0;
@@ -50,7 +43,7 @@
     align-items: center;
 }
 
-.pilares .pilares-conteudo .pilares-item-direita {
+.pilares-item-direita {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 2rem 0;
